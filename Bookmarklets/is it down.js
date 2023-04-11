@@ -1,0 +1,1 @@
+javascript:void(open('https://downforeveryoneorjustme.com/' + location.hostname));

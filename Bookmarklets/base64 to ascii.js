@@ -1,0 +1,1 @@
+javascript: void (() => { try { prompt('Decoded text:', atob(prompt('Decode base64:') ?? (function () { throw null; }()))) } catch (e) { e && alert(e); } })()

@@ -1,0 +1,1 @@
+javascript:void(open('https://isitup.org/' + location.hostname));

@@ -1,0 +1,1 @@
+javascript: var transform = document.querySelectorAll('img')[0].style.transform; var rotation = 0; if (transform != "") rotation = transform.match(/\d+/)[0];[...document.querySelectorAll('img')].forEach(el => el.style.transform = 'rotate(' + (parseInt(rotation) + 90) + 'deg)');

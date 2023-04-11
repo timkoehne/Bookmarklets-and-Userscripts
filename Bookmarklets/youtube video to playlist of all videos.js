@@ -1,0 +1,1 @@
+javascript:(function()%7Bif%20(window.location.href.indexOf(%22watch%3Fv%3D%22)%20%3E%20-1%20%26%26%20window.location.href.indexOf(%22%26list%3D%22)%20%3C%200)%20%7Bwindow.location%20%2B%3D%20%22%26list%3D%22%20%2B%20%22UU%22%20%2B%20document.documentElement.innerHTML.match('channelId%22%20content%3D%22(.*%3F)%22')%5B1%5D.substr(2)%3B%7D%7D)()
